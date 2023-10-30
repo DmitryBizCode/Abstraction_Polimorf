@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Abstraction_and_polimo
 {
-    internal class Settlement
+    public abstract class Settlement
     {
+        public double S {  get; set; }
+        public int H { get; set; }
+        public string Name { get; set; }
+
+        public abstract string Show();
+        public abstract double Density();
     }
 }
