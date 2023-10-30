@@ -1,0 +1,21 @@
+﻿<Window x:Class="Abstraction_and_polimo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Abstraction_and_polimo"
+        mc:Ignorable="d"
+        Title="Settlement" Height="460" Width="900" FontSize="18">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="18,375,0,0" VerticalAlignment="Top" FontSize="18" Height="45" Width="90"/>
+        <Label Content="Number of houses (Village) :" HorizontalAlignment="Left" Margin="18,103,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Number of population (City) :" HorizontalAlignment="Left" Margin="18,58,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="282,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <TextBox HorizontalAlignment="Left" Margin="282,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Result :" HorizontalAlignment="Left" Margin="18,187,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="18,242,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="18,281,0,0" VerticalAlignment="Top"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=13}" Margin="419,59,10,7"/>
+
+    </Grid>
+</Window>
