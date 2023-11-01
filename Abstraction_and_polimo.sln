@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction_and_polimo", "Abstraction_and_polimo.csproj", "{01BA98A0-ABB0-40F3-A34B-9D7A8032D243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{968FB046-190C-4AAA-98E5-93CE8F24FBDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{01BA98A0-ABB0-40F3-A34B-9D7A8032D243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BA98A0-ABB0-40F3-A34B-9D7A8032D243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BA98A0-ABB0-40F3-A34B-9D7A8032D243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968FB046-190C-4AAA-98E5-93CE8F24FBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968FB046-190C-4AAA-98E5-93CE8F24FBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968FB046-190C-4AAA-98E5-93CE8F24FBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968FB046-190C-4AAA-98E5-93CE8F24FBDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

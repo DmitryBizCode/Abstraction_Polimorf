@@ -6,16 +6,28 @@ using System.Threading.Tasks;
 
 namespace Abstraction_and_polimo
 {
-    internal class City : Settlement    
+    public class City : Settlement    
     {
         public City(int human, double area)
         {
-            H = human;
-            S = area;
-            Name = "City";
+            try { 
+                H = human;
+                S = Math.Round(area,2);
+                Name = "City";
+            }
+            catch 
+            {
+                throw new ArgumentOutOfRangeException("error syntactsis");
+            }
         }
 
         public override string Show() => Name + " : humans(" + H.ToString() + "), area(" + S.ToString() + ");";
-        public override double Density() => H / S;
+        public override double Density()
+        {
+            if(H <= 0 ||  S <= 0)
+                throw new ArgumentOutOfRangeException("Invalid enter data");
+
+            return H / S;
+        }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Abstraction_and_polimo"
         mc:Ignorable="d"
-        Title="Settlement" Height="460" Width="900" FontSize="18">
+        Title="Settlement" Height="460" Width="1000" FontSize="18">
     <Grid>
         <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="Left" Margin="18,375,0,0" VerticalAlignment="Top" FontSize="18" Height="45" Width="106" Click="Calculate_Click"/>
         <Label Content="Number of houses (Village) :" HorizontalAlignment="Left" Margin="18,103,0,0" VerticalAlignment="Top" FontSize="18"/>
@@ -13,11 +13,13 @@
         <TextBox x:Name="Village_out" HorizontalAlignment="Left" Margin="282,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
         <TextBox x:Name="City_out" HorizontalAlignment="Left" Margin="282,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
         <Label Content="Result :" HorizontalAlignment="Left" Margin="18,226,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="18,281,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="18,320,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="VilRes" Content="" HorizontalAlignment="Left" Margin="141,281,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CitRes" Content="" HorizontalAlignment="Left" Margin="118,320,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="listBox" d:ItemsSource="{d:SampleData ItemCount=13}" Margin="419,59,10,7"/>
         <Label Content="Number of tests :" HorizontalAlignment="Left" Margin="18,150,0,0" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="N_out" HorizontalAlignment="Left" Margin="282,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Label  Content="Village small :" HorizontalAlignment="Left" Margin="18,281,0,0" VerticalAlignment="Top"/>
+        <Label  Content="City small :" HorizontalAlignment="Left" Margin="18,320,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
